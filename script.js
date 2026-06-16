@@ -1,25 +1,17 @@
-const navLinks = document.querySelectorAll("nav a");
-
-navLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-        e.preventDefault();
-
-        const target = document.querySelector(
-            this.getAttribute("href")
-        );
-
-        target.scrollIntoView({
-            behavior: "smooth"
-        });
-    });
-});
+const sections = document.querySelectorAll(".section");
 
 window.addEventListener("scroll", () => {
-    const header = document.querySelector("nav");
 
-    if(window.scrollY > 50){
-        header.style.background = "#0f172a";
-    }else{
-        header.style.background = "transparent";
-    }
+    sections.forEach(section => {
+
+        const top = window.scrollY;
+        const offset = section.offsetTop - 200;
+        const height = section.offsetHeight;
+
+        if(top > offset && top < offset + height){
+            section.classList.add("active");
+        }
+
+    });
+
 });
