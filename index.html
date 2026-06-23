@@ -1,183 +1,917 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyanshu Namdev | Data Analyst</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Namdev | Data Analyst Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <div class="logo">Priyanshu Namdev</div>
+    <!-- ========================= -->
+    <!-- LOADER -->
+    <!-- ========================= -->
 
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <div class="loader">
+        <div class="loader-text">PN</div>
+    </div>
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>Hi, I'm <span>Priyanshu Namdev</span></h1>
-        <h2>Data Analyst | Power BI | SQL | Python</h2>
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
 
-        <p>
-            Results-driven Data Analyst with 2+ years of experience in
-            analytics, ETL processes, reporting, business intelligence,
-            and AI-driven data solutions.
-        </p>
+    <header id="header">
 
-        <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#contact" class="btn-outline">Contact Me</a>
+        <div class="logo">
+            <h2>PN</h2>
         </div>
-    </div>
-</section>
 
-<section id="about" class="section">
-    <h2>About Me</h2>
+        <nav class="navbar">
 
-    <p>
-        Associate Analyst with over 2 years of experience in data analytics,
-        reporting, ETL processes, dashboard development, and operational
-        analysis. Skilled in SQL, Python, Power BI, and Excel to transform
-        complex data into actionable business insights.
-    </p>
+            <ul class="nav-links">
 
-    <p>
-        Experienced in leading teams, automating reporting workflows,
-        analyzing hiring trends, and leveraging AI tools like ChatGPT
-        and Gemini to improve productivity and decision-making.
-    </p>
-</section>
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
 
-<section id="experience" class="section">
-    <h2>Professional Experience</h2>
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-    <div class="card">
-        <h3>Associate Analyst</h3>
-        <span>WYNISCO | Apr 2024 – Present</span>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
 
-        <ul>
-            <li>Analyzed candidate and operational data using SQL, Python, Excel and Power BI.</li>
-            <li>Led a team of 8 members and improved workflow efficiency.</li>
-            <li>Performed end-to-end ETL processes for large datasets.</li>
-            <li>Developed interactive Power BI dashboards and KPI reports.</li>
-            <li>Automated reporting and validation workflows using Python.</li>
-            <li>Utilized AI tools such as ChatGPT and Gemini for data analysis and documentation.</li>
-            <li>Analyzed job market and hiring trends to support strategic decisions.</li>
-        </ul>
-    </div>
-</section>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
 
-<section id="projects" class="section">
-    <h2>Projects</h2>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
 
-    <div class="project-grid">
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
-        <div class="project-card">
-            <h3>Revenue Insights Dashboard</h3>
+            </ul>
+
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- HERO SECTION -->
+    <!-- ========================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                Data Analyst & Business Intelligence Professional
+            </span>
+
+            <h1>
+                Hi, I'm <span>Priyanshu Namdev</span>
+            </h1>
+
+            <h2>
+                <span class="typing"></span>
+            </h2>
 
             <p>
-                Built an interactive Power BI dashboard to analyze revenue
-                trends using SQL, Excel, DAX measures and KPI tracking.
+                Results-driven Data Analyst with 2+ years of experience in data analytics,
+                business intelligence, ETL development, KPI reporting, and dashboard
+                creation. Skilled in SQL, Python, Power BI, and Excel with expertise
+                in transforming raw data into actionable business insights.
             </p>
 
-            <div class="tech">
-                Power BI • SQL • Excel
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn primary-btn">
+                    Get In Touch
+                </a>
+
+                <a href="https://docs.google.com/document/d/1w2sQFDkjAR4xqe010aZNqc3jvL6i_owpIjhrO6CYVTU/export?format=pdf"
+   			class="btn secondary-btn"
+   			target="_blank">
+   			Download Resume
+                </a>
+
             </div>
+
+            <div class="hero-info">
+
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Pune, Maharashtra
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Open To Relocate
+                </div>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:priyanshu05.namdev@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="tel:+918359875908">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="project-card">
-            <h3>Telecom Customer Churn Analysis</h3>
+        <div class="hero-image">
+
+            <div class="image-card">
+
+                <div class="glow-circle"></div>
+
+                <img src="images/profile.png"
+                    alt="Priyanshu Namdev">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- ABOUT SECTION -->
+    <!-- ========================= -->
+
+    <section id="about" class="about">
+
+        <div class="section-title">
+
+            <span>ABOUT ME</span>
+
+            <h2>
+                Turning Data Into Decisions
+            </h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <div class="about-img-card">
+
+                    <img src="images/profile.png"
+                        alt="Priyanshu Namdev">
+
+                </div>
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>
+                    Data Analyst | SQL | Python | Power BI
+                </h3>
+
+                <p>
+                    I am a Data Analyst with over 2 years of experience
+                    in analytics, reporting, business intelligence, and
+                    process optimization within the US Staffing &
+                    Recruitment industry.
+
+                    My expertise includes data extraction, ETL workflows,
+                    dashboard development, KPI reporting, statistical
+                    analysis, and predictive analytics.
+
+                    I enjoy transforming complex datasets into meaningful
+                    insights that drive strategic business decisions and
+                    improve operational performance.
+                </p>
+
+                <div class="about-highlights">
+
+                    <div class="highlight-card">
+
+                        <h4>2+</h4>
+
+                        <p>
+                            Years Experience
+                        </p>
+
+                    </div>
+
+                    <div class="highlight-card">
+
+                        <h4>3+</h4>
+
+                        <p>
+                            Major Projects
+                        </p>
+
+                    </div>
+
+                    <div class="highlight-card">
+
+                        <h4>15+</h4>
+
+                        <p>
+                            Analytics Skills
+                        </p>
+
+                    </div>
+
+                    <div class="highlight-card">
+
+                        <h4>40%</h4>
+
+                        <p>
+                            Reporting Automation
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <a href="#contact" class="btn primary-btn">
+                    Hire Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========================= -->
+    <!-- SKILLS SECTION -->
+    <!-- ========================= -->
+
+    <section id="skills" class="skills">
+
+        <div class="section-title">
+            <span>MY SKILLS</span>
+            <h2>Technical Expertise</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <p>Advanced Queries, Joins, CTEs, Window Functions, Data Modeling</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>Power BI</h3>
+                <p>Dashboards, DAX, KPI Reporting, Data Storytelling</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-file-excel"></i>
+                <h3>Advanced Excel</h3>
+                <p>Power Query, Pivot Tables, XLOOKUP, Automation</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-gears"></i>
+                <h3>ETL Development</h3>
+                <p>Data Cleaning, Transformation, Validation & Integration</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>Regression, Classification, Forecasting Models</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Business Analytics</h3>
+                <p>KPI Monitoring, Trend Analysis & Workforce Analytics</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>AI Tools</h3>
+                <p>ChatGPT, Prompt Engineering & AI-Assisted Analytics</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- EXPERIENCE SECTION -->
+    <!-- ========================= -->
+
+    <section id="experience" class="experience">
+
+        <div class="section-title">
+            <span>EXPERIENCE</span>
+            <h2>Professional Journey</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Apr 2024 - Present
+                    </span>
+
+                    <h3>Data Analyst</h3>
+
+                    <h4>WYNISCO | Pune, Maharashtra</h4>
+
+                    <ul>
+
+                        <li>
+                            Developed dashboards and KPI reporting solutions
+                            using SQL, Python, Excel and Power BI.
+                        </li>
+
+                        <li>
+                            Designed end-to-end ETL workflows for extracting,
+                            transforming and validating large datasets.
+                        </li>
+
+                        <li>
+                            Built executive-level Power BI dashboards with
+                            trend analysis and drill-through capabilities.
+                        </li>
+
+                        <li>
+                            Automated reporting processes using Python,
+                            reducing manual effort by 40%.
+                        </li>
+
+                        <li>
+                            Led an 8-member team and improved operational
+                            reporting efficiency.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- CERTIFICATIONS -->
+    <!-- ========================= -->
+
+    <section id="certifications" class="certifications">
+
+        <div class="section-title">
+            <span>CERTIFICATIONS</span>
+            <h2>Professional Certifications</h2>
+        </div>
+
+        <div class="certification-container">
+
+            <div class="cert-card">
+
+                <i class="fa-solid fa-award"></i>
+
+                <h3>
+                    Python Programming Certification
+                </h3>
+
+                <p>
+                    Ethan's
+                </p>
+
+            </div>
+
+            <div class="cert-card">
+
+                <i class="fa-solid fa-certificate"></i>
+
+                <h3>
+                    Data Science Certification
+                </h3>
+
+                <p>
+                    Ethan's
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- PROJECTS SECTION -->
+    <!-- ========================= -->
+
+    <section id="projects" class="projects">
+
+        <div class="section-title">
+            <span>PORTFOLIO</span>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div class="project-filter">
+
+            <button class="filter-btn active">
+                All Projects
+            </button>
+
+            <button class="filter-btn">
+                Power BI
+            </button>
+
+            <button class="filter-btn">
+                Python
+            </button>
+
+            <button class="filter-btn">
+                SQL
+            </button>
+
+        </div>
+
+        <div class="projects-container">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/project1.jpg"
+                        alt="QC Dashboard">
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        QC Performance Dashboard
+                    </h3>
+
+                    <p>
+                        Interactive Power BI dashboard for interview
+                        activity, consultant productivity, operational
+                        KPIs and performance monitoring.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Power BI</span>
+                        <span>Python</span>
+                        <span>Google Sheets</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="project-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="#" class="project-btn github-btn">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/project2.jpg"
+                        alt="Revenue Dashboard">
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Revenue Insights Dashboard
+                    </h3>
+
+                    <p>
+                        Revenue and profitability dashboard created
+                        using SQL, Excel and Power BI with KPI tracking
+                        and trend analysis.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Power BI</span>
+                        <span>SQL</span>
+                        <span>Excel</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="project-btn">
+                            Live Demo
+                        </a>
+
+                        <a href="#" class="project-btn github-btn">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/project3.jpg"
+                        alt="Churn Analysis">
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Telecom Customer Churn Analysis
+                    </h3>
+
+                    <p>
+                        Customer churn prediction and exploratory
+                        analysis using SQL, Python and Excel.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Excel</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="project-btn">
+                            View Project
+                        </a>
+
+                        <a href="#" class="project-btn github-btn">
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========================= -->
+    <!-- EDUCATION SECTION -->
+    <!-- ========================= -->
+
+    <section id="education" class="education">
+
+        <div class="section-title">
+            <span>EDUCATION</span>
+            <h2>Academic Background</h2>
+        </div>
+
+        <div class="education-container">
+
+            <div class="education-card">
+
+                <div class="edu-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="edu-content">
+
+                    <h3>
+                        Bachelor of Engineering
+                    </h3>
+
+                    <h4>
+                        Computer Science Engineering
+                    </h4>
+
+                    <p>
+                        Rajiv Gandhi Proudyogiki Vishwavidyalaya,
+                        Bhopal, Madhya Pradesh
+                    </p>
+
+                    <span>
+                        Jul 2019 - Dec 2023
+                    </span>
+
+                    <div class="edu-score">
+                        CGPA: 7.59 / 10
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="education-card">
+
+                <div class="edu-icon">
+                    <i class="fa-solid fa-school"></i>
+                </div>
+
+                <div class="edu-content">
+
+                    <h3>
+                        Higher Secondary Education
+                    </h3>
+
+                    <h4>
+                        Madhya Pradesh Board of Secondary Education
+                    </h4>
+
+                    <p>
+                        Bhopal, Madhya Pradesh
+                    </p>
+
+                    <span>
+                        Jul 2018 - Mar 2019
+                    </span>
+
+                    <div class="edu-score">
+                        Percentage: 64%
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- CONTACT SECTION -->
+    <!-- ========================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+            <span>CONTACT</span>
+            <h2>Let's Work Together</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-left">
+
+                <h3>
+                    Ready to Transform Data into Business Insights
+                </h3>
+
+                <p>
+                    I'm actively seeking opportunities in Data Analytics,
+                    Business Intelligence, Reporting, and Data Science.
+                    Feel free to connect for collaboration, consulting,
+                    or full-time opportunities.
+                </p>
+
+                <div class="contact-info">
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>
+                                priyanshu05.namdev@gmail.com
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <p>
+                                +91 8359875908
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h4>Location</h4>
+                            <p>
+                                Pune, Maharashtra, India
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-social">
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="mailto:priyanshu05.namdev@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="contact-right">
+
+                <form id="contactForm">
+
+                    <div class="input-group">
+
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input
+                            type="email"
+                            placeholder="Your Email"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input
+                            type="text"
+                            placeholder="Subject"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <textarea
+                            rows="6"
+                            placeholder="Your Message"
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="submit-btn">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+
+            <h2>PN</h2>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="mailto:priyanshu05.namdev@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
 
             <p>
-                Analyzed customer churn data using SQL and Python to identify
-                retention opportunities and high-risk customer segments.
+                © 2025 Priyanshu Namdev.
+                All Rights Reserved.
             </p>
 
-            <div class="tech">
-                SQL • Python • Pandas • Excel
-            </div>
         </div>
 
-    </div>
-</section>
+    </footer>
 
-<section id="skills" class="section">
-    <h2>Skills</h2>
+    <!-- ========================= -->
+    <!-- SCROLL TO TOP -->
+    <!-- ========================= -->
 
-    <div class="skills-container">
-        <span>SQL</span>
-        <span>Python</span>
-        <span>Power BI</span>
-        <span>Excel</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>Matplotlib</span>
-        <span>ETL</span>
-        <span>Data Analysis</span>
-        <span>Dashboard Development</span>
-        <span>Data Validation</span>
-        <span>Business Intelligence</span>
-    </div>
-</section>
+    <button id="scrollTopBtn">
 
-<section class="section">
-    <h2>Certifications</h2>
+        <i class="fa-solid fa-arrow-up"></i>
 
-    <div class="card">
-        <ul>
-            <li>Python Programming Certification</li>
-            <li>Data Science Certification</li>
-        </ul>
-    </div>
-</section>
+    </button>
 
-<section id="education" class="section">
-    <h2>Education</h2>
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
 
-    <div class="card">
-        <h3>Bachelor of Engineering – Computer Science</h3>
-        <p>Rajiv Gandhi Proudyogiki Vishwavidyalaya</p>
-        <p>CGPA: 7.59 / 10</p>
-        <p>2019 – 2023</p>
-    </div>
-
-    <div class="card">
-        <h3>Higher Secondary Education</h3>
-        <p>Madhya Pradesh Board of Secondary Education</p>
-        <p>Percentage: 64%</p>
-    </div>
-</section>
-
-<section id="contact" class="section">
-    <h2>Contact</h2>
-
-    <div class="contact-box">
-        <p>Email: priyanshu05.namdev@gmail.com</p>
-        <p>Phone: +91 8359875908</p>
-
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Priyanshu Namdev | Data Analyst Portfolio</p>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
